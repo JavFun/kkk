@@ -1,0 +1,73 @@
+@import url();
+
+
+:root{
+    --morado: #576CB4;
+    --color-naranja: #F59A59;
+}
+
+
+body{
+font-family: Roc Grotesk;
+font-size: 20px;
+
+}
+
+header{
+background-color: var(--morado);
+padding: 20px;
+
+}
+
+footer{
+    background-color: var(--morado);
+    padding: 40px;
+    color: #fff;
+    
+}
+
+footer h2{
+font-size: 25px;
+}
+
+footer h3,h4,h5{
+    font-size: 15px;
+}
+
+.titulo{
+    font-family: Gratina;
+    font-size: 50px;
+}
+
+.subtitulo{
+    font-family: Gratina;
+    font-size: 50px;
+    color: black;
+}
+
+.parrafo{
+    color: black;
+}
+
+.nav{
+    font-family: Roc Grotesk;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#oc{
+background-image: url(../img/fondo_logo.png);
+background-position: top center;
+background-size: cover;
+
+}
+
+#bienvenido{
+padding: 150px;
+
+}
+
+#navbar{
+    background-color: var(--morado);
+}
